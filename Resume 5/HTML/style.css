@@ -48,28 +48,34 @@
   
   #education {
     padding-left: 70px;
+    margin-bottom:60px;
   }
   
   .body {
     padding-left: 50px;
     padding-right: 100px;
+    
   }
   .body2 {
     padding-left: 50px;
     padding-left: 54px;
+    margin-bottom:60px;
   }
   .body3 {
     padding-left: 50px;
     padding-right: 100px;
+    margin-bottom:60px;
   }
   
   .body4 {
     padding-left: 50px;
     padding-right: 100px;
+    margin-bottom:60px ;
   }
   
   #skills {
     padding-left: 50px;
     padding-right: 100px;
+    margin-bottom:60px;
   }
   
