@@ -78,14 +78,14 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 250px 2px;
     cursor: pointer;
   }
 
   
   #footer{
     text-align:center;
-    margin-top: 120px;
+    margin-top: 0px;
   }
   
   
@@ -121,5 +121,60 @@
     color: white;
   }
   /*nav bar*/
+
+
+
   
+  /*  tiles */
+  .pannel{
+    
+   display: flex;
+    
+  }
+/* Sizing for tile Containers  */
+.column-2 {
+  float: left;
+  width:30%;
+  padding:10px;
+  margin:1px;
+  height: 230px;
+}
+/* Color and Images for tile Containers  */
+
+.tile-1 {
+  background: url('/images/project-left.jpeg');
+  background-size: cover;
+  background-color:#808080;
+}
+
+.tile-2 {
+  background-color:#008080;
+}
+
+.tile-3 {
+  background: url('/images/project-left.jpeg');
+  background-size: cover;
+  background-color:#808080;
+}
+
+.tile-4 {
+  background-color:#008080;
+  text-align:center;
   
+}
+
+.tile-5 {
+  background: url('/images/project-left.jpeg');
+  background-size: cover;
+  background-color:#808080;
+  
+}
+
+.tile-6 {
+  background-color:#008080;
+  text-align:center;}
+
+.tile-text {
+  text-align:center;
+  font-size:20px;}
+/*tiles*/
