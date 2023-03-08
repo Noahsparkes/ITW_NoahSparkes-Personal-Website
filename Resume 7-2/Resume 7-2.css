@@ -17,6 +17,7 @@
   
   .picture {
     display: block;
+    padding-top: 25px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -99,6 +100,7 @@
     overflow: hidden;
     background-color: #333;
     top: 0;
+    
     position: sticky;
   }
   
@@ -184,7 +186,6 @@
 /*form*/
 
 /*hero banner*/
-
 .banner {
     background-image: linear-gradient(rgba(183, 183, 183, 0.7),rgba(184, 182, 182, 0.7)), url("https://images8.alphacoders.com/921/921329.jpg");
     background-position: center;
@@ -192,8 +193,4 @@
     background-size: cover;
     height: 100%;
 }
-
-
-
-
 /*hero banner*/
