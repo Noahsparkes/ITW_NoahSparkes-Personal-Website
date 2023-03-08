@@ -1,10 +1,9 @@
 * {
     font-family: "Poppins", sans-serif;
-    
   }
   
-  .break{
-    margin-bottom:30px;
+  .break {
+    margin-bottom: 30px;
   }
   
   #link {
@@ -30,19 +29,18 @@
     border-radius: 50%;
   }
   
-  
   /*#menu {
-    padding: 20px;
-    margin-left: 20px;
-    margin-right: 150px;
-    margin-bottom: 150px;
-    border: 1px solid #808080;
-    background: #add8e6;
-  }*/
+      padding: 20px;
+      margin-left: 20px;
+      margin-right: 150px;
+      margin-bottom: 150px;
+      border: 1px solid #808080;
+      background: #add8e6;
+    }*/
   
   #education {
     padding-left: 50px;
-    padding-top:100px;
+    padding-top: 100px;
   }
   
   .body {
@@ -52,8 +50,7 @@
   .body2 {
     padding-left: 50px;
     padding-left: 54px;
-    margin-bottom:60px;
-    
+    margin-bottom: 60px;
   }
   .body3 {
     padding-left: 50px;
@@ -82,26 +79,26 @@
     margin: 100px 2px; /*first value is what determines the height of this button */
     cursor: pointer;
   }
-
   
-  #footer{
-    text-align:center;
+  #footer {
+    text-align: center;
     margin-top: 0px;
   }
   
-  
   /*nav bar*/
   
- *{font-family: Arial, Helvetica, sans-serif;
-   }
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
   
   .topnav {
-    
     overflow: hidden;
     background-color: #333;
     top: 0;
     position: sticky;
+    
   }
+
   
   .topnav a {
     float: left;
@@ -122,75 +119,110 @@
     color: white;
   }
   /*nav bar*/
+  
+  /*skill bars*/
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 33%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(202, 57, 57);
+  }
+  
+  .html {
+    width: 90%;
+    background-color: #008080;
+  }
+  .css {
+    width: 80%;
+    background-color: #008080;
+  }
+  .js {
+    width: 55%;
+    background-color: #008080;
+  }
 
-
-
+  .skills{
+    margin-top:90px;
+  }
+  /*skill bars*/
   
   /*  tiles */
-  .pannel{
-    
-   display: flex;
-    
+  .pannel {
+    display: flex;
   }
-/* Sizing for tile Containers  */
-.column-2 {
-  float: left;
-  width:30%;
-  padding:10px;
-  margin:1px;
-  height: 230px;
-}
-/* Color and Images for tile Containers  */
-
-.tile-1 {
-  background: url('/images/project-left.jpeg');
-  background-size: cover;
-  background-color:#808080;
-}
-
-.tile-2 {
-  background-color:#008080;
-}
-
-.tile-3 {
-  background: url('/images/project-left.jpeg');
-  background-size: cover;
-  background-color:#808080;
-}
-
-.tile-4 {
-  background-color:#008080;
-  text-align:center;
+  /* Sizing for tile Containers  */
+  .column-2 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin: 1px;
+    height: 230px;
+  }
+  /* Color and Images for tile Containers  */
   
-}
-
-.tile-text {
-  text-align:center;
-  font-size:20px;}
-/*tiles*/
-
-/*form*/
-#submit {
-  background-color: #008080;
+  .tile-1 {
+    background: url("/images/project-left.jpeg");
+    background-size: cover;
+    background-color: #808080;
+  }
+  
+  .tile-2 {
+    background-color: #008080;
+  }
+  
+  .tile-3 {
+    background: url("/images/project-left.jpeg");
+    background-size: cover;
+    background-color: #808080;
+  }
+  
+  .tile-4 {
+    background-color: #008080;
+    text-align: center;
+  }
+  
+  .tile-text {
+    text-align: center;
+    font-size: 20px;
+  }
+  /*tiles*/
+  
+  /*form*/
+  #submit {
+    background-color: #008080;
     border-radius: 50px;
     color: white;
     text-align: center;
     padding: 10px 29px;
     font-size: 16px;
     cursor: pointer;
-}
-.form{
-  font-family: poppins;
-}
-/*form*/
-
-/*hero banner*/
-.banner {
-    background-image: linear-gradient(rgba(183, 183, 183, 0.7),rgba(184, 182, 182, 0.7)), url("https://images8.alphacoders.com/921/921329.jpg");
+  }
+  .form {
+    font-family: poppins;
+  }
+  /*form*/
+  
+  /*hero banner*/
+  .banner {
+    background-image: linear-gradient(
+        rgba(148, 146, 146, 0.7),
+        rgba(143, 141, 141, 0.7)
+      ),
+      url("https://images8.alphacoders.com/921/921329.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     text-align: center;
-}
-/*hero banner*/
+  }
+  /*hero banner*/
+  
