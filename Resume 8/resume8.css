@@ -1,3 +1,4 @@
+
 * {
     font-family: "Poppins", sans-serif;
   }
@@ -29,15 +30,26 @@
     border-radius: 50%;
   }
   
-  /*#menu {
-        padding: 20px;
-        margin-left: 20px;
-        margin-right: 150px;
-        margin-bottom: 150px;
-        border: 1px solid #808080;
-        background: #add8e6;
-      }*/
   
+  /*hero banner*/
+  .banner {
+    background-image: linear-gradient(rgba(148, 146, 146, 0.7),
+        rgba(143, 141, 141, 0.7)),
+      url("https://images8.alphacoders.com/921/921329.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+  }
+  .hero-text {
+    color:white ;
+  }
+  
+  /*hero banner*/
+
+
+
   #education {
     padding-left: 50px;
     padding-top: 100px;
@@ -241,23 +253,45 @@
   }
   /*form*/
   
-  /*hero banner*/
-  .banner {
-    background-image: linear-gradient(rgba(148, 146, 146, 0.7),
-        rgba(143, 141, 141, 0.7)),
-      url("https://images8.alphacoders.com/921/921329.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    text-align: center;
-  }
-  .hero-text {
-    color:white ;
-  }
-  
-  /*hero banner*/
-
   
 
   
+  /*==================Mobile=======================*/
+
+  @media screen and (max-width:425px) {
+    h1{
+       font-size: 15px;
+    }
+
+    h2{
+      font-size: 9px;
+    }
+    p{
+      font-size: 6px;
+    }
+  
+    .topnav a {
+      display:inline-block;
+      color: rgb(252, 248, 248);
+      text-align: center;
+      padding: 10px 16px;
+      text-decoration: none;
+      font-size: 12px;
+    }
+    
+  }
+
+  /*==================Mobile=======================*/
+
+
+
+
+
+
+
+
+
+
+  /*==================Tablet=======================*/
+
+  /*==================Tablet=======================*/
