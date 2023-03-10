@@ -78,7 +78,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 100px 2px;
+    margin-top: 250px;
     /*first value is what determines the height of this button */
     cursor: pointer;
   }
@@ -239,7 +239,6 @@
   .form {
     font-family: poppins;
   }
-  
   /*form*/
   
   /*hero banner*/
@@ -253,5 +252,12 @@
     height: 100%;
     text-align: center;
   }
+  .hero-text {
+    color:white ;
+  }
   
   /*hero banner*/
+
+  
+
+  
