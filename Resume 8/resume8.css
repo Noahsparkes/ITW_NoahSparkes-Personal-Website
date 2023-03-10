@@ -44,6 +44,7 @@
   }
   .hero-text {
     color:white ;
+    font-size: 1.5em;
   }
   
   /*hero banner*/
@@ -98,6 +99,7 @@
   #footer {
     text-align: center;
     margin-top: 0px;
+    font-size: 16px;
   }
   
   /*nav bar*/
@@ -119,9 +121,10 @@
     float: left;
     color: rgb(252, 248, 248);
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 16px ;
     text-decoration: none;
     font-size: 17px;
+    
   }
   
   .topnav a:hover {
@@ -139,18 +142,12 @@
   
   /*skill bars*/
 
-  /*body {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #111;
-  }*/
+  
   
   .skills {
     width: 100%;
     max-width: 600px;
-    padding: 0 20px;
+    padding: 40px 20px;
   }
   
   .skill-name {
@@ -266,8 +263,8 @@
     h2{
       font-size: 9px;
     }
-    p{
-      font-size: 6px;
+    .hero-text{
+      font-size:0.9em;
     }
   
     .topnav a {
@@ -279,19 +276,66 @@
       font-size: 12px;
     }
     
-  }
+    
+    .pannel{
+      background-color: #3698d1;
+      
+      
+    }
 
+    .column-2 {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      margin: 1px;
+      height: 120px;
+    }
+    .container{
+      width: 80%;
+    }
+    #about {
+      height: 80px; 
+      width: 200px; 
+    }
+
+    .top {
+      background-color: #008080;
+      border-radius: 50px;
+      color: white;
+      padding: 10px 18px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 13px;
+      margin-top: 250px;
+      /*first value is what determines the height of this button */
+      cursor: pointer;
+    }
+    #submit {
+      background-color: #008080;
+      border-radius: 50px;
+      color: white;
+      text-align: center;
+      padding: 4px 20px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    #footer {
+      font-size:14px;
+    }
+    #contact-me{
+      font-size: 16px;
+    }
+
+  }
   /*==================Mobile=======================*/
 
 
 
 
 
-
-
-
-
-
   /*==================Tablet=======================*/
+
+
 
   /*==================Tablet=======================*/
