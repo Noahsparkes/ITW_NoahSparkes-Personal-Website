@@ -307,6 +307,9 @@
     .tile-1{
       background-image:url(account128.png)
     }
+    .tile-3{
+      background-image: url(code48.png);
+    }
     .image-fluid{
       visibility: hidden;
 
@@ -316,6 +319,13 @@
     }
     .tile-text{
       font-size: 10px;
+    }
+    .pannel{
+      display: grid;
+      
+      grid-template-columns:1fr 1fr;
+      grid-template-rows:1fr 1fr ;
+      
     }
 
   }
